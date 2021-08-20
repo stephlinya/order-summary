@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: 100% 100%;
+    background-position: top right 10px;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 28em;
+    height: 44em;
+    text-align: center;
+    margin: 6.25em auto;
+    line-height: 2.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+}
+
+.hero-img{
+    margin: 0;
+    background-image: url(/images/illustration-hero.svg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 13.75em;
+    width: 100%;
+    border-radius: 1.5em 1.5em 0 0;
+
+}
+
+.content{
+    margin: 3em;
+    
+}
+
+.pricing-block{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    padding: 1.5em;
+    height: 6.25em;
+    width: 22em;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+#link {
+    flex: 2;
+}

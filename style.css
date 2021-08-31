@@ -51,47 +51,66 @@ h1{
 }
 
 #product-summary { 
-    margin-bottom: 0.5rem;
     color: hsl(224, 23%, 55%);
+    width: 85%;
+    margin: .5rem auto;
 
 }
 
 .pricing-block{
     box-sizing: border-box;
     display: flex;
-    margin: 0 auto;
-    padding: 0.5rem;
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;
     width: 90%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
     align-items: center;
-    
+    justify-content: space-between;
+
 }
 
 #music-icon{
-    padding: 0.5rem;
+    width: 20%;
 }
 
 #price-description {
-    padding: 0.5rem;
-    text-align: center;
+    width: 20%;
+    text-align: left;
+}
+.accent-text{
+    font-weight: 900;
+}
+
+.body-text{
+    color: hsl(224, 23%, 55%);
 }
 
 #link {
-    flex: 2;
+    width: 40%;
+    color: hsl(225, 100%, 94%);
 }
 
+a:hover, a:focus{
+    opacity: .7;
+    text-decoration: none;
+}
 #payment-button { 
     background-color: hsl(245, 75%, 52%);
-    padding: 1.2em;
+    padding: 1.2rem;
     color: white;
     width: 90%;
     border-radius: 10px;
     border: none;
     font-weight: 700;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    filter: drop-shadow(0 0.8rem 0.35rem hsl(225, 100%, 94%));   
 }
+
+#payment-button:hover, #payment-button:focus{
+    opacity: .7;
+}
+
 
 #cancel-button {
     padding: 1.2em;
@@ -103,3 +122,11 @@ h1{
     font-size: 1.2rem;
 }
 
+#cancel-button:hover, #cancel-button:focus {
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    margin: 0.5rem 0;
+}

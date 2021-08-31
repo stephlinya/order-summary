@@ -10,13 +10,13 @@ html {
     background-color: hsl(225, 100%, 94%);
     background-image: url(https://stephlinya.github.io/order-summary/images/pattern-background-desktop.svg);
     background-size: 100% 100%;
-    background-position: top right 10px;
+    background-position: center;
 }
 
 body{
     display: grid;
     place-items: center;
-    margin: 1rem;
+    min-height: 100vh;
 }
 .container {
     width: 70%;
@@ -27,6 +27,7 @@ body{
     flex-direction: column;
     background-color: white;
     border-radius: 1.5em;
+    margin: 1.5rem;
     
 }
 
@@ -35,7 +36,7 @@ body{
     background-image: url(https://stephlinya.github.io/order-summary/images/illustration-hero.svg);
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    min-height: 10em;
+    min-height: 13rem;
     width: 100%;
     border-radius: 1.5em 1.5em 0 0;
 

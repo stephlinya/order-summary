@@ -18,6 +18,11 @@ body{
     place-items: center;
     min-height: 100vh;
 }
+
+footer {
+    display: none;
+}
+
 .container {
     width: 70%;
     max-width: 28em;
